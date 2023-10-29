@@ -1,0 +1,33 @@
+.meals {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.meal-header {
+    font-size: 3rem;
+    margin-top: 5em;
+    margin-bottom: .5em;
+    padding: .5em 1em;
+    color: white;
+    background-color: rgba(0, 0, 0, .5);
+    border: 2px solid #df7614;
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    transition: .3s;
+}
+
+.meal-header:hover {
+    color: #4fb0d3;
+    border: 2px solid #357288;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-top-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+.backround {
+    width: 100%;
+    height: 100vh;
+}

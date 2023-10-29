@@ -1,0 +1,18 @@
+.find {
+    width: 95%;
+    margin: 0 auto;
+    padding-top: 12em;
+    text-align: center;
+}
+
+.find-header {
+    font-size: 3rem;
+    color: #fff;
+    font-weight: bold;
+}
+
+.map {
+    margin-top: 1em;
+    width: 100%;
+    height: 25em;
+}
