@@ -10,7 +10,8 @@
 }
 
 .cart-padding {
-    padding: 10em 0 2em;
+	width: 60em;
+	padding-top: 8em;
 }
 
 .summary {

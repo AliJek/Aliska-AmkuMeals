@@ -12,7 +12,7 @@ const ShopCartButton = (props) => {
 	}, 0);
 
 	return (
-		<button className={classes.cart}>
+		<button className={classes.cart} onClick={props.onClick}>
 			<FontAwesomeIcon icon={faCartShopping} className={classes.icon} />
 			<span className={classes.badge}>{badgeTotalAmount}</span>
 		</button>

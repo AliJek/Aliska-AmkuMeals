@@ -92,7 +92,7 @@ const MealNavigation = () => {
 					)}
 				</div>
 				<NavLink to='/cart'>
-					<ShopCartButton />
+					<ShopCartButton onClick={closeHamburgerNav}/>
 				</NavLink>
 			</div>
 		</nav>

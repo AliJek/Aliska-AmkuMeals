@@ -1,5 +1,5 @@
 .cart {
-    display: flex;
+    display: grid;
     justify-content: space-between;
     align-items: center;
     padding: .3em 0 .4em;
@@ -47,6 +47,11 @@
     cursor: pointer;
 }
 
+.cart-btns {
+    padding: .8em 0;
+    text-align: right;
+}
+
 .cart-btns button {
     margin-right: 1em;
     padding: .4em 1.5em;
@@ -60,4 +65,10 @@
 
 .cart-btns button:hover {
     background-color: #c4621d;
+}
+
+@media (min-width: 568px) {
+    .cart {
+        display: flex;
+    }
 }
